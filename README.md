@@ -1,3 +1,12 @@
+# Create package
+```{r}
+usethis::create_package("bml")
+```
+
+# Create vignette
+```{r}
+usethis::use_vignette("report")
+```
 
 ```{r}
 library(devtools)
