@@ -1,0 +1,5 @@
+library(usethis)
+usethis::create_tidy_package("D:/tpb/LGD.models/")
+usethis::use_data_raw()
+usethis::use_vignette("report")
+usethis::use_directory("dev")
